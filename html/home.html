@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr"> <!--imposta la lingua italiana e la direzione del testo da sinistra a destra-->
+    <head>
+        <title>Parallele</title>
+        <link rel="shortcut icon" href="../icons/icon.png">
+        <link rel="stylesheet" href="../css/home.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--aiuta un sito responsive ad adattarsi alle dimensioni dello schermo-->
+        <script src="../javascript/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> <!--link libreria burger menu-->
+    </head>
+
+    <body class="body">
+      <div class="col-d-12 menua">
+          <div class="col-d-12 menub">
+            <div class="col-d-12 menu">
+                <div class="col-d-4 logo">
+                    <a href="../html/home.html" id="logo" class="col-d-4"><img id="logo" src="../icons/parallele_logo.png"></img></a>
+                </div>
+
+                <div class="col-d-6 burger"> <!--burger menu-->
+                    <label for="check" class="checkbtn" onclick="togglemenu();">
+                        <i class="fas fa-bars"> </i>
+                    </label>
+                </div>
+                <div class="col-d-8 navbar"> <!--navbar desktop-->
+                    <div class="navitems"><a class="col-d-12 menu-button" href="../html/Projects.html">Projects</a></div>
+                    <div class="navitems"><a class="col-d-12 menu-button" href="../html/Gallery.html">Gallery</a></div>
+                    <div class="navitems"><a class="col-d-12 menu-button" href="../html/About Us.html">About Us</a></div>
+                    <div class="navitems"><a class="col-d-12 menu-button" href="../html/Contact.html">Contact</a></div>
+                </div>
+            </div>
+            <input type="checkbox" id="check"> <!--input bottone burger menu-->
+            <div class="col-d-12 navbar-mobile-box"> <!--pagina del menu in entrata-->
+                <div class="col-d-12 navbar-mobile"> <!--navbar mobile-->
+                    <div class="col-d-12 navitems-mobile"><a href="../html/Projects.html">Projects</a></div>
+                    <div class="col-d-12 navitems-mobile"><a href="../html/Gallery.html">Gallery</a></div>
+                    <div class="col-d-12 navitems-mobile"><a href="../html/About Us.html">About Us</a></div>
+                    <div class="col-d-12 navitems-mobile"><a href="../html/Contact.html">Contact</a></div>
+                    <div class="col-d-12 navitems-mobile"><a ></a></div> <!--quinto elemento per suddividere la pagina-->
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+        <!--SLIDE IMAGE-->
+        <div class="col-d-12 submenu"></div>  <!--Distanziamento tra il menu e l'immagine-->
+        <div class="col-d-12 slide-box"> <!--galleria con pulsanti-->
+            <div class="col-d-12 re"> <!--padding-->
+                <div class="col-d-8 gen">
+                    <div id="slider">
+                        <!--DIV GENERALE-->
+                        <button onclick="prec()">&#10094;</button>
+                        <div id="img_slider">
+                            <img src="../images_slider/img_home1.jpg">
+                            <img src="../images_slider/img_home2.jpg">
+                            <img src="../images_slider/img_home3.jpg">
+                            <img src="../images_slider/img_home4.jpg">
+                            <img src="../images_slider/img_home5.jpg">
+                        </div>
+                        <button onclick="succ()">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-d-12 image-box"> <!--scritta scorrimento in background-->
+            <div class="col-d-12 scrolling">
+                 <img src="../icons/scrolling text.png"/>
+            </div>
+        </div>
+        <div class="col-d-12 space"></div> <!--distaccamento-->
+
+        <div class="col-d-12 textbox">
+            <div class="col-d-12 underline">
+                <P><i>Emotions are words:
+                “I’m happy” / “I'm sad”.<br>
+                But how many different ways of being happy exist?</i>
+                </p>
+            </div>
+        </div>
+        <div class="col-d-12 textbox">
+            <div class="col-d-12 center">
+                <P> PARALLELE drives emotions through video images.<br>
+                PARALLELE is a camera combat team based in Milano, Italy. <br>
+                PARALLELE drives emotions through video images. <br>
+                </p>
+            </div>
+        </div>
+        <div class="col-d-12 textbox">
+            <div class="col-d-12 underline">
+                <p><i>Images help us learn. Images grab attention.
+                <br>Images explain tough concepts and inspire.
+                <br>MORE THAN WORDS DO.</i>
+                </p>
+            </div>
+        </div>
+        <div class="col-d-12 center">
+            <P>THIS IS PARALLELE.</p>
+        </div>
+        <div class="col-d-12 textbox">
+            <div class="col-d-4 email">
+                <a class="txt_email" href="https://www.instagram.com/" target="_blank">@PARALLELE_45</a>
+            </div>
+        </div>
+        <div class="col-d-12 textbox">
+            <div class="col-d-4 email">
+                <a class="txt_email" href="mailto:general@Parallele.eu" target="_blank">general@Parallele.eu</a>
+            </div>
+        </div>
+        <div class="col-d-12 space2"></div>
+
+        <div class="col-d-12 footer">
+            <div class="footer-content">
+                  <p>Copyright &copy;2022 Parallele. designed by Carlo Brignoli e Marco Taino.</p>
+            </div>
+        </div>
+    </body>
+</html>
